@@ -2,30 +2,30 @@
 🎯 Objective: Build a voice-enabled bank form with speech-to-text and text-to-speech features for seamless user interaction.
 
 🟢 Phase 1: Planning & Research (Week 1)
-✅ Define project scope and objectives
-✅ Research speech recognition technologies (Google Speech API, Vosk, etc.)
-✅ Plan frontend and backend architecture
+   ✅ Define project scope and objectives
+   ✅ Research speech recognition technologies (Google Speech API, Vosk, etc.)
+   ✅ Plan frontend and backend architecture
 
 🔵 Phase 2: Backend Development (Week 2-3)
-✅ Set up Flask server
-✅ Implement Speech-to-Text (Google Speech API)
-✅ Implement Text-to-Speech (pyttsx3)
-✅ Test API endpoints
+   ✅ Set up Flask server
+   ✅ Implement Speech-to-Text (Google Speech API)
+   ✅ Implement Text-to-Speech (pyttsx3)
+   ✅ Test API endpoints
 
 🟠 Phase 3: Frontend Development (Week 4)
-✅ Design UI (HTML, CSS, JavaScript)
-✅ Implement voice input and output on form fields
-✅ Connect frontend to Flask API
+   ✅ Design UI (HTML, CSS, JavaScript)
+   ✅ Implement voice input and output on form fields
+   ✅ Connect frontend to Flask API
 
 🟡 Phase 4: Feature Enhancements (Week 5)
-✅ Add multi-language support
-✅ Implement error handling and correction
-✅ Add confirmation prompts
+   ✅ Add multi-language support
+   ✅ Implement error handling and correction
+   ✅ Add confirmation prompts
 
 🟣 Phase 5: Testing & Deployment (Week 6)
-✅ Conduct unit testing on backend APIs
-✅ Perform UI/UX testing for voice interactions
-✅ Deploy project on a cloud platform (e.g., Heroku, AWS)
+   ✅ Conduct unit testing on backend APIs
+   ✅ Perform UI/UX testing for voice interactions
+   ✅ Deploy project on a cloud platform (e.g., Heroku, AWS)
 
 
 🏆 Final Deliverables
