@@ -51,11 +51,10 @@ function startVoiceInput(fieldId) {
         alert("Your browser does not support speech recognition.");
         return;
     }
-
-    speakLabel(fieldId)
-
-    setTimeout(() => {
-
+    const test = document.getElementById(fieldId);
+    let label = document.querySelector("label[for='" + test.id + "']");
+    console.log(label)
+    if (!label) {
         const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
         recognition.lang = 'en-IN'; // Set language to English
 
@@ -75,7 +74,33 @@ function startVoiceInput(fieldId) {
             alert("Speech recognition error: " + event.error);
         };
 
-    }, 2500);
+    }
+    else {
+        speakLabel(fieldId)
+
+        setTimeout(() => {
+
+            const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+            recognition.lang = 'en-IN'; // Set language to English
+
+            recognition.start();
+            recognition.onresult = (event) => {
+                const check = document.getElementById(fieldId).type;
+
+                if (check === 'email' || check === 'number' || check === 'tel') {
+                    document.getElementById(fieldId).value = sanitizeString(event.results[0][0].transcript);
+                }
+                else {
+                    document.getElementById(fieldId).value = event.results[0][0].transcript;
+                }
+            };
+
+            recognition.onerror = (event) => {
+                alert("Speech recognition error: " + event.error);
+            };
+
+        }, 2500);
+    }
 }
 
 // function submitForm() {
