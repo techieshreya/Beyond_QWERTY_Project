@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <p>${card.fields.length}</p>
                 <div class="actions">
                     <div class="icons">
-                        <button><i class="fas fa-edit"></i></button>
+                        
                         <button onclick="deleteTemplate('${card.id}')"><i class="fas fa-trash"></i></button>
                     </div>
                     <button class="use-template view-form-button" >
@@ -81,13 +81,43 @@ document.addEventListener("DOMContentLoaded", function () {
         renderCards();
     }
 
+    // window.deleteTemplate = function (id) {
+    //     const index = cards.findIndex(card => card.id === id);
+    //     if (index !== -1) {
+    //         cards.splice(index, 1);
+    //         renderCards();
+    //     }
+    // }
+
     window.deleteTemplate = function (id) {
-        const index = cards.findIndex(card => card.id === id);
+        console.log("Deleting card with ID:", id);
+        
+        // Get stored forms from local storage
+        let storedForms = JSON.parse(localStorage.getItem("forms")) || [];
+    
+        // Find the index of the card in local storage
+        const index = storedForms.findIndex(card => card.id === id);
+    
         if (index !== -1) {
-            cards.splice(index, 1);
-            renderCards();
+            // Remove the card from local storage array
+            storedForms.splice(index, 1);
+    
+            // Update local storage
+            localStorage.setItem("forms", JSON.stringify(storedForms));
+    
+            // Remove the card element from the DOM
+            const cardElement = document.getElementById(id);
+            if (cardElement) {
+                cardElement.remove();
+            }
+    
+            console.log("Card removed successfully!");
+        } else {
+            console.log("Card not found in local storage.");
         }
-    }
+    };
+    
+    
 
     renderCards();
 });
@@ -293,3 +323,6 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+
+{/* <button><i class="fas fa-edit"></i></button> */}
