@@ -10,6 +10,8 @@ body {
     padding: 24px;
 }
 .header {
+    width: 80%;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;

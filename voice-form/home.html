@@ -7,11 +7,18 @@
     <title>Form Templates</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="day-night.css">
 </head>
+
 <body>
     <div class="container">
         <div class="header">
             <h1>Form Templates</h1>
+            <button id="toggleBtn">🌙 Night Mode</button>
+            <button onclick="startSpeechSelection()">
+                <i class="fas fa-microphone"></i> 
+                Speak to Select Form
+            </button>
             <button onclick="window.location.href = 'form.html'">
                 <i class="fas fa-plus" ></i>
                 Create New Form
@@ -50,6 +57,8 @@
             </div> -->
         </div>
     </div>
-    <script src="home.js"></script>r
+
+    <script src="home.js"></script>
+    <script src="day-night.js"></script>
 </body>
 </html>
