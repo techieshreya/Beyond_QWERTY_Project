@@ -5,5 +5,5 @@ Link: [Google Colab](https://colab.research.google.com/drive/1jI8rBgHt6eZYClH-f0
 ### Python Colab link
 Link: [Google colab](https://colab.research.google.com/drive/1bqXgZqXY-cZ93dAYhoZNzOEW3zvjNSEz?usp=sharing)
 ### Project Diployment Link
-Link: [Beyond_QWERTY_Project](https://rahulcomputerscience.github.io/Beyond_QWERTY_Project/voice-form/signin.html) 
+Link: [Beyond_QWERTY_Project](https://beyond-qwerty.vercel.app/) 
 
