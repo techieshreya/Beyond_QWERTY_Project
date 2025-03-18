@@ -4,7 +4,10 @@ Link: [Beyond_QWERTY project Roadmap](https://lucid.app/lucidspark/7f673478-c343
 Link: [Google Colab](https://colab.research.google.com/drive/1jI8rBgHt6eZYClH-f0Swn__3yXQfSD_q?usp=sharing).
 ### Python Colab link
 Link: [Google colab](https://colab.research.google.com/drive/1bqXgZqXY-cZ93dAYhoZNzOEW3zvjNSEz?usp=sharing)
-### Project Diployment Link
+### Certificates
+Link: [Python](./python_basic_certificate.pdf)
+Link: [SQL](./sql_basic%20certificate.pdf)
+### Project Deployment Link
 Link: [Beyond_QWERTY_Project](https://beyond-qwerty.vercel.app/) 
 ### Agile Doc
 Link: [Excel](./Agile_Infosys_Springboard.xlsx)
