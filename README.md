@@ -5,7 +5,7 @@ Link: [Google Colab](https://colab.research.google.com/drive/1jI8rBgHt6eZYClH-f0
 ### Python Colab link
 Link: [Google colab](https://colab.research.google.com/drive/1bqXgZqXY-cZ93dAYhoZNzOEW3zvjNSEz?usp=sharing)
 ### Certificates
-Link: [Python](./python_basic_certificate.pdf)
+Link: [Python](./python_basic%20certificate.pdf)
 Link: [SQL](./sql_basic%20certificate.pdf)
 ### Project Deployment Link
 Link: [Beyond_QWERTY_Project](https://beyond-qwerty.vercel.app/) 
