@@ -1,12 +1,6 @@
 ### Roadmap of this project
-Link: [Beyond_QWERTY project Roadmap](https://lucid.app/lucidspark/7f673478-c343-4dd0-be73-a9005bd0b2d2/edit?viewport_loc=-2032%2C-434%2C3036%2C1374%2C0_0&invitationId=inv_83a38363-44fc-4f42-9bae-be44b2ee5f20).
-### SQL Colab link
-Link: [Google Colab](https://colab.research.google.com/drive/1jI8rBgHt6eZYClH-f0Swn__3yXQfSD_q?usp=sharing).
-### Python Colab link
-Link: [Google colab](https://colab.research.google.com/drive/1bqXgZqXY-cZ93dAYhoZNzOEW3zvjNSEz?usp=sharing)
-### Certificates
-Link: [Python](./python_basic%20certificate.pdf)
-Link: [SQL](./sql_basic%20certificate.pdf)
+Link: [Beyond_QWERTY project Roadmap]([https://lucid.app/lucidspark/7f673478-c343-4dd0-be73-a9005bd0b2d2/edit?viewport_loc=-2032%2C-434%2C3036%2C1374%2C0_0&invitationId=inv_83a38363-44fc-4f42-9bae-be44b2ee5f20](https://lucid.app/lucidspark/7c318592-1fa8-46b2-8d6a-37c798535972/edit?viewport_loc=-2081%2C-404%2C3241%2C1467%2C0_0&invitationId=inv_9eecbf5c-374f-469f-b352-883f57a63486)).
+
 ### Project Deployment Link
 Link: [Beyond_QWERTY_Project](https://beyond-qwerty.vercel.app/) 
 ### Agile Doc
