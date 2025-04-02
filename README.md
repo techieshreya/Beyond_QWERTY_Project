@@ -27,7 +27,6 @@ The project eliminates reliance on the QWERTY keyboard by integrating **multilin
 ## Modules to be Implemented
 1. **Voice Input and Language Processing**
    - Speech recognition for capturing user inputs
-   - Real-time language translation for multilingual support
 2. **Workflow Automation and Optimization**
    - Smart field recognition and autofill capabilities
    - Adaptive form structures based on input data
@@ -38,11 +37,7 @@ The project eliminates reliance on the QWERTY keyboard by integrating **multilin
    - User testing for accuracy and ease of use
    - Deployment strategies ensuring scalability and performance
 
-## Technologies Used
-- **Azure OpenAI & GPT** for NLP and conversational AI
-- **Speech-to-Text APIs** for voice input processing
-- **Real-time translation services** for multilingual support
-- **Cloud-based deployment** for scalability and accessibility
+
 
 ## Installation & Usage
 1. Clone the repository:
